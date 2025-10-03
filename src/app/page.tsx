@@ -153,7 +153,7 @@ export default function Page() {
             <h1
               className={`${montserrat.className} text-3xl md:text-6xl font-bold tracking-tight leading-tight`}
             >
-              CONHEÇA O <strong className="text-blue-800">JEFERSON</strong>
+              CONHEÇA O <strong className="text-blue-800">JEFFERSON</strong>
             </h1>
           </div>
           <img className='rounded-1xl h-80 mb-4' src={MyProfile.src} alt="Foto de perfil" />
