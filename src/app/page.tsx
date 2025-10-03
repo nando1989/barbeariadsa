@@ -65,7 +65,7 @@ export default function Page() {
           <section className="max-w-3xl w-5rem px-4 ">
             <div className="flex items-center gap-3 mb-10">
               <a
-                href="https://chat.whatsapp.com/CJOcUGBPTHs8Vq2TfQUXmt"
+                href="https://chat.whatsapp.com/FGRbPfSE4zQKNH1XcjWxQe"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 w-full flex justify-center items-center  bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition"
@@ -102,7 +102,7 @@ export default function Page() {
           <section className="max-w-3xl w-5rem px-4 ">
             <div className="flex items-center gap-3 mb-10">
               <a
-                href="https://chat.whatsapp.com/CJOcUGBPTHs8Vq2TfQUXmt"
+                href="https://chat.whatsapp.com/FGRbPfSE4zQKNH1XcjWxQe"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 w-full flex justify-center items-center  bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition"
@@ -167,7 +167,7 @@ export default function Page() {
         <section className=" w-full px-4 ">
           <div className="flex  items-center gap-3 mb-10 border-b-2 ">
             <a
-              href="https://chat.whatsapp.com/CJOcUGBPTHs8Vq2TfQUXmt"
+              href="https://chat.whatsapp.com/FGRbPfSE4zQKNH1XcjWxQe"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 w-full flex justify-center items-center  bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition"
