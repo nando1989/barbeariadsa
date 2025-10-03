@@ -1,103 +1,188 @@
-import Image from "next/image";
+'use client'
 
-export default function Home() {
+import MyImage from "@/assets/top.webp"
+import MyProfile from "@/assets/profile.webp"
+import MainClient from "@/assets/main.webp"
+import V1 from "@/assets/1.webp"
+import V2 from "@/assets/2.webp"
+import V3 from "@/assets/3.webp"
+import V4 from "@/assets/4.webp"
+import V5 from "@/assets/5.webp"
+import V6 from "@/assets/6.webp"
+import V7 from "@/assets/7.webp"
+import V8 from "@/assets/8.webp"
+import { Montserrat } from "next/font/google";
+import SliderClient from '@/components/autoSlide/autoSlideClient';
+
+const montserrat = Montserrat({
+  weight: ["600", "700"],
+  subsets: ["latin"],
+});
+
+export default function Page() {
+
+
+
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main className="min-h-screen bg-black text-neutral-900 flex items-center justify-center flex-col">
+      <div className=" w-full top-8 flex items-center justify-center md-h-[20rem]">
+        <img className="w-full max-w-4xl " src={MyImage.src} alt="Descrição" />
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      </div>
+      <div className="w-full border-b border-white flex justify-center items-center">
+        <div className="max-w-[50rem] bg-black h-auto ml-8 mr-8 border-b-2 border-white md-flex-row">
+          <div className="flex justify-center items-center flex-row">
+            <section className="  flex flex-col  h-auto relative w-full flex items-center justify-center overflow-hidden">
+              <div className="relative z-10 text-center text-white px-4 mt-5 mb-5">
+                <h1
+                  className={`${montserrat.className} text-3xl md:text-6xl font-bold tracking-tight leading-tight`}
+                >
+                  RECUPERE SUA <strong className="text-blue-800">AUTOESTIMA</strong>
+                </h1>
+              </div>
+              <div className="relative z-10 text-center text-white px-4 mt-3.5 text-left">
+                <p className="mt-4 text-[1.25rem] md:text-2xl mb-5">
+                  ✅Resultado Ultra realista
+                </p>
+                <p className="mt-4 text-[1.25rem] md:text-2xl mb-5 ">
+                  ✅Autoestima renovada
+                </p>
+                <p className="mt-4 text-[1.25rem] md:text-2xl mb-5 ">
+                  ✅Visual totalmente natural
+                </p>
+                <p className="mt-4 text-[1.25rem] md:text-2xl mb-5">
+                  ✅Confiança imediata
+                </p>
+                <p className="mt-4 text-[1.25rem] md:text-2xl mb-5">
+                  ✅Sem cirurgia
+                </p>
+              </div>
+              <div className="w-full flex justify-center items-center mt-15">
+                <img className='rounded-1xl w-full mb-4' src={MainClient.src} alt="Foto de perfil" />
+              </div>
+            </section>
+          </div>
+          <section className="max-w-3xl w-5rem px-4 ">
+            <div className="flex items-center gap-3 mb-10">
+              <a
+                href="https://chat.whatsapp.com/CJOcUGBPTHs8Vq2TfQUXmt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 w-full flex justify-center items-center  bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition"
+              >
+                Entrar no grupo VIP
+              </a>
+            </div>
+          </section>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+      </div>
+
+      <div className="w-full border-b border-white flex justify-center items-center">
+        <div className="max-w-[50rem] bg-black h-auto ml-8 mr-8 border-b-2 border-white md-flex-row">
+          <div className="flex justify-center items-center flex-row">
+            <section className="  flex flex-col  h-auto relative w-full flex items-center justify-center overflow-hidden">
+              <div className="relative z-10 text-center text-white px-4 mt-5 mb-5">
+                <h1
+                  className={`${montserrat.className} text-3xl md:text-6xl font-bold tracking-tight leading-tight`}
+                >
+                  VEJA ALGUMAS <strong className="text-blue-800">VANTAGENS</strong>
+                </h1>
+              </div>
+              <div className="relative z-10 text-center text-white px-4 mt-3.5 text-left">
+
+              </div>
+              <div className="w-full flex flex-col justify-center items-center ">
+                <img className='rounded-1xl w-full mb-4' src={V1.src} alt="Foto de perfil" />
+                <img className='rounded-1xl w-full mb-4' src={V2.src} alt="Foto de perfil" />
+                <img className='rounded-1xl w-full mb-4' src={V3.src} alt="Foto de perfil" />
+                <img className='rounded-1xl w-full mb-4' src={V4.src} alt="Foto de perfil" />
+              </div>
+            </section>
+          </div>
+          <section className="max-w-3xl w-5rem px-4 ">
+            <div className="flex items-center gap-3 mb-10">
+              <a
+                href="https://chat.whatsapp.com/CJOcUGBPTHs8Vq2TfQUXmt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 w-full flex justify-center items-center  bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition"
+              >
+                Entrar no grupo VIP
+              </a>
+            </div>
+            <div className="flex justify-center items-center flex-row">
+            <section className="  flex flex-col  h-auto relative w-full flex items-center justify-center overflow-hidden">
+              <div className="relative z-10 text-center text-white px-4 mt-5 mb-5">
+                <h1
+                  className={`${montserrat.className} text-3xl md:text-6xl font-bold tracking-tight leading-tight`}
+                >
+                  VEJA ALGUNS <strong className="text-blue-800">BENEFÍCIOS</strong>
+                </h1>
+              </div>
+              <div className="relative z-10 text-center text-white px-4 mt-3.5 text-left">
+
+              </div>
+              <div className="w-full flex flex-col justify-center items-center ">
+                <img className='rounded-1xl w-full mb-4' src={V5.src} alt="Foto de perfil" />
+                <img className='rounded-1xl w-full mb-4' src={V6.src} alt="Foto de perfil" />
+                <img className='rounded-1xl w-full mb-4' src={V7.src} alt="Foto de perfil" />
+                <img className='rounded-1xl w-full mb-4' src={V8.src} alt="Foto de perfil" />
+              </div>
+            </section>
+          </div>
+          </section>
+        </div>
+      </div>
+      <div className="max-w-[50rem] bg-red h-auto ml-8 mr-8">
+        <div className="flex  items-center  w-5rem px-4 mb-10 ">
+
+        </div>
+
+        <div className="mb-15">
+          <div className="relative z-10 text-center text-white px-4 mt-5 mb-5">
+            <h1
+              className={`${montserrat.className} text-3xl md:text-6xl font-bold tracking-tight leading-tight`}
+            >
+              VEJA ALGUNS <strong className="text-blue-800">RESULTADOS</strong>
+            </h1>
+          </div>
+          <SliderClient />
+        </div>
+        <div className="relative z-10 text-center flex items-center flex-col text-white px-4 mt-3.5 mb-5">
+          <div className="relative z-10 text-center text-white px-4 mt-5 mb-5">
+            <h1
+              className={`${montserrat.className} text-3xl md:text-6xl font-bold tracking-tight leading-tight`}
+            >
+              CONHEÇA O <strong className="text-blue-800">JEFERSON</strong>
+            </h1>
+          </div>
+          <img className='rounded-1xl h-80 mb-4' src={MyProfile.src} alt="Foto de perfil" />
+          
+
+          <p className="font-san font-medium">
+            Jefferson de Sá, 34 anos, é barbeiro e empreendedor em Teresópolis. Atua desde 2018 na área e, em 2021, tornou-se pioneiro em sua cidade ao se especializar em prótese capilar, trazendo um serviço inovador para a região. Apaixonado pela arte da barbearia e comprometido em oferecer sempre a melhor experiência, Jefferson se consolidou como referência local, unindo técnica, modernidade e cuidado em cada atendimento.
+
+          </p>
+        </div>
+        <section className=" w-full px-4 ">
+          <div className="flex  items-center gap-3 mb-10 border-b-2 ">
+            <a
+              href="https://chat.whatsapp.com/CJOcUGBPTHs8Vq2TfQUXmt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 w-full flex justify-center items-center  bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition"
+            >
+              Entrar no grupo VIP
+            </a>
+          </div>
+        </section>
+        
+
+      </div>
+      <div className="relative z-10 w-full text-center bg-blue-950 text-white text-[0.75rem] flex items-center flex-col px-4 mt-3.5"> <p className="font-san font-light">
+            Desenvolvido por - Criativa360
+          </p>
+        </div>
+    </main>
+  )
 }
