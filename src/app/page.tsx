@@ -179,7 +179,7 @@ export default function Page() {
         
 
       </div>
-      <div className="relative z-10 w-full text-center text-white text-[0.75rem] flex items-center flex-col px-4 mt-3.5"> <p className="font-san font-light">
+      <div className="relative z-10 w-full text-center text-gray-400 text-[0.75rem] flex items-center flex-col px-4 mt-3.5"> <p className="font-san font-light">
             Desenvolvido por - Criativa360
           </p>
         </div>
