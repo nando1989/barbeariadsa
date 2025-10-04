@@ -160,7 +160,7 @@ export default function Page() {
           
 
           <p className="font-san font-medium">
-            Jefferson de Sá, 34 anos, é barbeiro e empreendedor em Teresópolis. Atua desde 2018 na área e, em 2021, tornou-se pioneiro em sua cidade ao se especializar em prótese capilar, trazendo um serviço inovador para a região. Apaixonado pela arte da barbearia e comprometido em oferecer sempre a melhor experiência, Jefferson se consolidou como referência local, unindo técnica, modernidade e cuidado em cada atendimento.
+            Jefferson de Sá, 35 anos, é barbeiro e empreendedor em Teresópolis. Atua desde 2018 na área e, em 2021, tornou-se pioneiro em sua cidade ao se especializar em prótese capilar, trazendo um serviço inovador para a região. Apaixonado pela arte da barbearia e comprometido em oferecer sempre a melhor experiência, Jefferson se consolidou como referência local, unindo técnica, modernidade e cuidado em cada atendimento.
 
           </p>
         </div>
