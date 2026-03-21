@@ -62,18 +62,31 @@ export default function Page() {
               </div>
             </section>
           </div>
-          <section className="max-w-3xl w-5rem px-4 ">
-            <div className="flex items-center gap-3 mb-10">
-              <a
-                href="https://chat.whatsapp.com/FGRbPfSE4zQKNH1XcjWxQe"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 w-full flex justify-center items-center  bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition"
-              >
-                Entrar no grupo VIP
-              </a>
-            </div>
-          </section>
+          <section className="max-w-3xl w-5rem px-4">
+  <div className="flex items-center gap-3 mb-10">
+    <a
+      href="https://wa.me/5521994287212?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais!"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-4 w-full flex justify-center items-center gap-2 
+      bg-gradient-to-r from-green-500 to-green-600 
+      text-white px-6 py-3 rounded-xl font-semibold 
+      shadow-lg hover:scale-105 hover:shadow-xl 
+      transition-all duration-300"
+    >
+      {/* Ícone WhatsApp */}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 32 32"
+        className="w-5 h-5 fill-white"
+      >
+        <path d="M16 3C9.4 3 4 8.3 4 14.8c0 2.6.9 5 2.3 7L4 29l7.5-2c1.9 1 4 1.5 6.2 1.5 6.6 0 12-5.3 12-11.8S22.6 3 16 3zm0 21.5c-2 0-4-.6-5.6-1.7l-.4-.2-4.4 1.2 1.2-4.2-.3-.4C5.4 17.7 4.8 16.3 4.8 14.8 4.8 10 9.1 6 14.4 6s9.6 4 9.6 8.8-4.3 8.7-9.6 8.7zm5.2-6.4c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 1.1-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.7.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.6 0-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.8 0 1.7 1.2 3.3 1.4 3.5.2.2 2.4 3.6 5.9 5 .8.3 1.5.5 2 .6.8.2 1.5.2 2 .1.6-.1 1.7-.7 2-1.3.3-.6.3-1.2.2-1.3-.1-.1-.3-.2-.6-.4z" />
+      </svg>
+
+      Falar agora no WhatsApp
+    </a>
+  </div>
+</section>
         </div>
       </div>
 
@@ -101,14 +114,27 @@ export default function Page() {
           </div>
           <section className="max-w-3xl w-5rem px-4 ">
             <div className="flex items-center gap-3 mb-10">
-              <a
-                href="https://chat.whatsapp.com/FGRbPfSE4zQKNH1XcjWxQe"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 w-full flex justify-center items-center  bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition"
-              >
-                Entrar no grupo VIP
-              </a>
+               <a
+      href="https://wa.me/5521994287212?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais!"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-4 w-full flex justify-center items-center gap-2 
+      bg-gradient-to-r from-green-500 to-green-600 
+      text-white px-6 py-3 rounded-xl font-semibold 
+      shadow-lg hover:scale-105 hover:shadow-xl 
+      transition-all duration-300"
+    >
+      {/* Ícone WhatsApp */}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 32 32"
+        className="w-5 h-5 fill-white"
+      >
+        <path d="M16 3C9.4 3 4 8.3 4 14.8c0 2.6.9 5 2.3 7L4 29l7.5-2c1.9 1 4 1.5 6.2 1.5 6.6 0 12-5.3 12-11.8S22.6 3 16 3zm0 21.5c-2 0-4-.6-5.6-1.7l-.4-.2-4.4 1.2 1.2-4.2-.3-.4C5.4 17.7 4.8 16.3 4.8 14.8 4.8 10 9.1 6 14.4 6s9.6 4 9.6 8.8-4.3 8.7-9.6 8.7zm5.2-6.4c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 1.1-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.7.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.6 0-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.8 0 1.7 1.2 3.3 1.4 3.5.2.2 2.4 3.6 5.9 5 .8.3 1.5.5 2 .6.8.2 1.5.2 2 .1.6-.1 1.7-.7 2-1.3.3-.6.3-1.2.2-1.3-.1-.1-.3-.2-.6-.4z" />
+      </svg>
+
+      Falar agora no WhatsApp
+    </a>
             </div>
             <div className="flex justify-center items-center flex-row">
             <section className="  flex flex-col  h-auto relative w-full flex items-center justify-center overflow-hidden">
@@ -166,14 +192,27 @@ export default function Page() {
         </div>
         <section className=" w-full px-4 ">
           <div className="flex  items-center gap-3 mb-10 border-b-2 ">
-            <a
-              href="https://chat.whatsapp.com/FGRbPfSE4zQKNH1XcjWxQe"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 w-full flex justify-center items-center  bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition"
-            >
-              Entrar no grupo VIP
-            </a>
+             <a
+      href="https://wa.me/5521994287212?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais!"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-4 w-full flex justify-center items-center gap-2 
+      bg-gradient-to-r from-green-500 to-green-600 
+      text-white px-6 py-3 rounded-xl font-semibold 
+      shadow-lg hover:scale-105 hover:shadow-xl 
+      transition-all duration-300"
+    >
+      {/* Ícone WhatsApp */}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 32 32"
+        className="w-5 h-5 fill-white"
+      >
+        <path d="M16 3C9.4 3 4 8.3 4 14.8c0 2.6.9 5 2.3 7L4 29l7.5-2c1.9 1 4 1.5 6.2 1.5 6.6 0 12-5.3 12-11.8S22.6 3 16 3zm0 21.5c-2 0-4-.6-5.6-1.7l-.4-.2-4.4 1.2 1.2-4.2-.3-.4C5.4 17.7 4.8 16.3 4.8 14.8 4.8 10 9.1 6 14.4 6s9.6 4 9.6 8.8-4.3 8.7-9.6 8.7zm5.2-6.4c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 1.1-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.7.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.6 0-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.8 0 1.7 1.2 3.3 1.4 3.5.2.2 2.4 3.6 5.9 5 .8.3 1.5.5 2 .6.8.2 1.5.2 2 .1.6-.1 1.7-.7 2-1.3.3-.6.3-1.2.2-1.3-.1-.1-.3-.2-.6-.4z" />
+      </svg>
+
+      Falar agora no WhatsApp
+    </a>
           </div>
         </section>
         
