@@ -7,3 +7,15 @@ declare module '*.webp' {
   };
   export default content;
 }
+
+declare module 'next/font/google' {
+  export function Montserrat(options: {
+    weight?: string[];
+    subsets?: string[];
+  }): {
+    className: string;
+    style: {
+      fontFamily: string;
+    };
+  };
+}
