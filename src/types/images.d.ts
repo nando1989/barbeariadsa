@@ -9,6 +9,30 @@ declare module '*.webp' {
 }
 
 declare module 'next/font/google' {
+  export function Inter(options: {
+    variable?: string;
+    subsets?: string[];
+  }): {
+    className: string;
+    variable: string;
+    style: {
+      fontFamily: string;
+    };
+  };
+
+  export function JetBrains_Mono(options: {
+    variable?: string;
+    subsets?: string[];
+  }): {
+    className: string;
+    variable: string;
+    style: {
+      fontFamily: string;
+    };
+  };
+}
+
+declare module 'next/font/google' {
   export function Montserrat(options: {
     weight?: string[];
     subsets?: string[];
